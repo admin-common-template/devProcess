@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /assets/images/favicon.ico
+heroImage: /favicon.ico
 heroAlt: Logo
 heroText: 通用后台模板
 tagline: 一切为了更轻松地开发
