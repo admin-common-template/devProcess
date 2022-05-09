@@ -21,7 +21,7 @@ module.exports = {
     nav: [
       { text: '介绍', link: '/introduce' },
       { text: '个人网站', link: 'http://www.ylsong.com' },
-      { text: 'Github', link: 'https://github.com/longyzw' }
+      { text: 'Github', link: 'https://github.com/admin-common-template' }
     ],
     // 侧边栏
     sidebar: {
