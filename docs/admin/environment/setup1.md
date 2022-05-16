@@ -16,7 +16,7 @@ vscode，[前往官网下载](https://code.visualstudio.com/)
 
 显示如下则搭建成功
 
-<img src=".\..\..\images\admin\vue-js\vite-start.png" style="zoom: 50%;" />
+<img src=".\..\..\images\admin\vue-js\setup1-1.png" style="zoom: 50%;" />
 
 ## 配置环境及依赖
 
@@ -36,6 +36,10 @@ vscode，[前往官网下载](https://code.visualstudio.com/)
 
 添加 `eslint` 校验配置，不清楚具体配置的可先查询社区文档，推荐[掘金](https://juejin.cn/)
 
+预览如下
+
+<img src=".\..\..\images\admin\vue-js\setup1-2.png" style="zoom: 50%;" />
+
 
 ## 约定项目结构
 ```
@@ -52,8 +56,8 @@ vscode，[前往官网下载](https://code.visualstudio.com/)
 |   |   ├── dayjs.js（针对服务器时区的日期转换方法）
 |   |   ├── enums.js（枚举）
 |   |   ├── request.js（ajax请求封装）
-|   |   ├── utils.js（项目工具类）
-|   |   └── tools.js（通用工具类）
+|   |   ├── tools.js（通用工具类）
+|   |   └── utils.js（项目工具类）
 |   ├── components （基础及公用组件）
 |   ├── handles（数据处理）
 |   |   ├── api（接口管理）
@@ -63,15 +67,17 @@ vscode，[前往官网下载](https://code.visualstudio.com/)
 |   |   └── validate（表单校验）
 |   ├── layout（项目主体结构）
 |   ├── router（路由配置）
+|   |   ├── children.js（子路由）
+|   |   └── index.js（配置）
 |   ├── store（状态管理）
+|   |   └── app.js（应用模块）
 |   └── views（页面）
 ├── App.vue（项目入口组件）
 ├── main.js（项目入口文件）
 ├── .eslintignore（eslint校验忽略项）
 ├── .eslintrc.js（eslint规则配置）
-├── index.html（HTML主页）
+├── index.html（主页）
 ├── jsconfig.json（js规则配置）
-├── postcss.json（css扩展配置）
-├── tailwind.config.js（原子css配置）
-└── vite.config.js（项目脚手架配置）
+├── vite.config.js（脚手架配置）
+└── windi.config.js（原子css配置）
 ```
