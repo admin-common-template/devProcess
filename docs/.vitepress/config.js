@@ -51,7 +51,7 @@ function getSidebar() {
           text: "基础布局",
           children: [
             {
-              text: "Layout布局定型",
+              text: "Layout布局",
               link: "/admin/layout/setup1"
             }
           ]

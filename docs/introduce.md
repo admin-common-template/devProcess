@@ -6,7 +6,7 @@
 
 ### Admin开发流程引导
 
-<details>
+<details open>
 
 <summary>vue项目js版本</summary>
 
