@@ -14,6 +14,8 @@
 
 1、[环境搭建](./admin/environment/setup1.md)
 
+2、[Layout布局](./admin/layout/setup1.md)
+
 </details>
 
 <details>

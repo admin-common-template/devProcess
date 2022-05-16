@@ -3,7 +3,8 @@
 确定项目的layout布局
 
 ## 新增用到的插件
-    `screenfull`，`mockjs`，`iconify`
+
+`screenfull`，`mockjs`，`iconify`
 
 ## 提前需要的准备：
 
